@@ -20,7 +20,6 @@
       <dependency>
         <groupId>org.concordion</groupId>
         <artifactId>concordion</artifactId>
-        <version>1.4.4</version>
         <scope>test</scope>
       </dependency>
     </dependencies>
@@ -36,6 +35,7 @@
       <groupId>org.concordion</groupId>
       <artifactId>concordion</artifactId>
       <scope>test</scope>
+      <version>1.4.4</version>
     </dependency>
   </dependencies>
 </project>
