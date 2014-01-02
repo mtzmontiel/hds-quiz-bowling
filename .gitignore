@@ -4,4 +4,4 @@ target/
 .classpath
 bin
 nohup.out
-
+*.*~
