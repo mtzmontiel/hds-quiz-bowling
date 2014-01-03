@@ -1,13 +1,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:concordion="http://www.concordion.org/2007/concordion">
 <body>
-	<h1>Tiros por entrada Split entrada 10</h1>
+	<h1>Tiros por entrada Split entrada 10 tercer tiro</h1>
 	<p>
 		Cuando se hace el segundo tiro con spare de <span
-			concordion:set="#primero">5</span> pinos y <span
-			concordion:set="#segundo">5</span> pinos, los tiros disponibles para
+			concordion:set="#primero">5</span> pinos, <span
+			concordion:set="#segundo">5</span> pinos, y <span
+			concordion:set="#tercero">5</span> pinos los tiros disponibles para
 		la entrada final son <span
-			concordion:assertEquals="tirosDisponibles(#primero, #segundo)">1</span>
+			concordion:assertEquals="tirosDisponibles(#primero, #segundo, #tercero)">0</span>
 	</p>
 </body>
 </html>
