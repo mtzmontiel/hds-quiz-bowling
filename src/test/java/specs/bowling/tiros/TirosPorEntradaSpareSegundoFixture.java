@@ -8,9 +8,10 @@ import com.hds.arq.quizz.bowling.Entrada;
 @RunWith(ConcordionRunner.class)
 public class TirosPorEntradaSpareSegundoFixture {
 
-    public int tirosDisponibles(int pinos) {
+    public int tirosDisponibles(int primero, int segundo) {
         final Entrada entrada = new Entrada();
-        entrada.tiro(pinos);
+        entrada.tiro(primero);
+        entrada.tiro(segundo);
         return entrada.tirosDisponibles();
     }
 }
