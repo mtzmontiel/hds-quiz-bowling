@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:concordion="http://www.concordion.org/2007/concordion">
+<body>
+	<h1>Puntos en Spare</h1>
+	<p>Cuando se hacen 2 tiros y no se derriban los 10 pinos la puntuacion de la entrada es la suma de los pinos derribados en ambos tiros</p>
+	<table>
+		<tr>
+			<td concordion:set="#tiro1">3</td>
+			<td concordion:set="#tiro2">/</td>
+			<td concordion:set="#tiro3">3</td>
+			<td concordion:set="#tiro4">3</td>
+		</tr>
+		<tr>
+            <td colspan="2" concordion:assertEquals="tiroSplit(#tiro1, #tiro2, #tiro3)">13</td>
+            <td colspan="2" concordion:assertEquals="tiroSpare(#tiro3, #tiro4)">6</td>
+        </tr>
+	</table>
+</body>
+</html>
