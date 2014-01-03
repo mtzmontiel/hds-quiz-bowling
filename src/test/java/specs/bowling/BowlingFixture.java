@@ -1,4 +1,4 @@
-package specs;
+package specs.bowling;
 
 import org.concordion.integration.junit4.ConcordionRunner;
 import org.junit.runner.RunWith;
@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @RunWith(ConcordionRunner.class)
 public class BowlingFixture {
 
-	public int framesFor(int players) {
-		return players * 10;
+	public int entradasPara(int jugadores) {
+		return jugadores * 10;
 	}
 }
