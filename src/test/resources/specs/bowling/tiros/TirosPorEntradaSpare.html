@@ -1,0 +1,10 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+xmlns:concordion="http://www.concordion.org/2007/concordion">
+<body>
+    <h1>Tiros por entrada Iniciales</h1>
+    <p>
+        Cuando se hace el primer tiro con spare de <span concordion:set="#pinos">5</span> pinos, los tiros disponibles son
+        <span concordion:assertEquals="tirosDisponibles(#pinos)">1</span>
+    </p>
+</body>
+</html>
