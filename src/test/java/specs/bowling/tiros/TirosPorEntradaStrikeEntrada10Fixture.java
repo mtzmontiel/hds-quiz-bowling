@@ -10,7 +10,7 @@ import com.hds.arq.quizz.bowling.EntradaFactory;
 public class TirosPorEntradaStrikeEntrada10Fixture {
 
     public int tirosDisponibles(int primero) {
-        final Entrada entrada = EntradaFactory.nuevaEntrada();
+        final Entrada entrada = EntradaFactory.nuevaEntradaFinal();
         entrada.tiro(primero);
         return entrada.tirosDisponibles();
     }
